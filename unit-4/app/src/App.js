@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Problem1 from './sprint-1/day-1/assignments/probem1/problem1'
+import { Combined}  from './sprint-1/day-1/assignments/problem2/part1/Buttons';
+import { AllButtons } from './sprint-1/day-1/assignments/problem2/part2/ButtonsAll';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       day-1
+     <Problem1 />
+     <Combined />
+     <AllButtons /> 
+      
     </div>
   );
 }

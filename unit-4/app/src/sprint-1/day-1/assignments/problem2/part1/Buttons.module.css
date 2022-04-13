@@ -1,0 +1,14 @@
+#buttons_container {
+    padding: 15px;
+    margin: auto;
+    width: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#buttons_container button {
+    border-radius: 50px;
+    border: 0;
+    height: 35px;
+}
